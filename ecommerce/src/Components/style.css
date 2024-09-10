@@ -1,0 +1,15 @@
+.mysquare{
+    border: 1px solid yellow;
+    border-radius: 40%;
+    animation-name: movesquare;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes movesquare{
+    from{
+        transform: rotate(0deg) ;
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
