@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navbar{
+  display : flex;
+  justify-content: flex-start;
+  background-color: blue;
+  padding: 30px;
+  margin: 0px;
+  color: white;
+  list-style-type: none;
+}
+
+.navbar li{
+  margin-left: 20px;
+  color: white;
+  cursor: pointer;
+  border: 1px solid whilte;
+  font-size: 20px;
+}
